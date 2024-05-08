@@ -18,9 +18,11 @@ cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && cd ubuntu
 Run below commands sequentially as root user in Ubuntu
 
 Install basic tools
+
 apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-distutils python3-pip python3-venv python-is-python3 -y 
 
 Install required extensions
+
 apt-get install libgl1 libglib2.0-0 libsm6 libxrender1 libxext6 -y
 
 Clone the repository
@@ -36,11 +38,9 @@ cd ComfyUI
 export ANDROID_DATA=anything 
 
 Install required Python packages
+
 pip install -r requirements.txt 
 
-Install xformers. This package is not required, but is recommended to be installed
-
-pip install xformers 
 
 Launch the webui. It will take some time to complete first-time installation then everything should be fine
 
