@@ -20,6 +20,7 @@ First you have to install Termux and install PRoot. Then install and login to Ub
 Run below commands sequentially as root user in Ubuntu
 
 Install basic tools
+
 apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-distutils python3-pip python3-venv python-is-python3 -y 
 
 Install required extensions
@@ -35,15 +36,19 @@ Change the current directory
 cd ComfyUI
 
 'Fix' the issue with Python running in PRoot
+
 export ANDROID_DATA=anything 
 
 Install required Python packages
+
 pip install -r requirements.txt 
 
 Launch the webui. It will take some time to complete first-time installation then everything should be fine
+
 python main.py --cpu
 
 Navigate to the webui in your browser
+
 http://127.0.0.1:8188
 
 To start after rebooting termux after first installation 
