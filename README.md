@@ -44,7 +44,8 @@ pip install xformers
 
 Launch the webui. It will take some time to complete first-time installation then everything should be fine
 
-python main.py --cpu --use-split-cross-attention
+python main.py --cpu --use-split-cross-attention --dont-upcast-attention 
+
 
 Navigate to the webui in your browser 
 
@@ -57,4 +58,4 @@ cd ubuntu-in-termux && ./startubuntu.sh
 THEN PASTE BOTTOM COMMAND 
 
 cd ubuntu-in-termux && ./startubuntu.sh
-cd ComfyUI && python main.py --cpu --use-split-cross-attention
+cd ComfyUI && python main.py --cpu --use-split-cross-attention --dont-upcast-attention 
