@@ -1,5 +1,5 @@
 Install stable-diffusion-webui on Termux (Android) + PRoot
-This will guide you on installing ComfyUi on Termux (Android) + PRoot Distro. Make sure that you have a high-end phone to actually make this usable. On my phone with 8GB RAM, launch the webui alone take at least ~ 2 GB RAM, thus making it impossible to load any model and process further.
+This will guide you on installing ComfyUi on Termux (Android) + PRoot Distro. Make sure that you have a high-end phone to actually make this usable. On my phone with 12GB RAM, launch the webui alone take at least ~ 2 GB RAM, thus making it impossible to load any model and process further.
 
 
 
@@ -34,6 +34,7 @@ Change the current directory
 cd ComfyUI
 
 'Fix' the issue with Python running in PRoot
+Newer Phones Android 13-14 don't need this Command but all phones are Different.
 
 export ANDROID_DATA=anything 
 
