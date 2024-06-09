@@ -1,4 +1,4 @@
-THIS WORKS ON 8gb Ram!!!
+THIS WORKS ON 8gb Ram!!! DO NOT DISABLE PHANTOM PROCESSOR KILLER DOING THIS WILL MAKE ALL STABLE DIFFUSION TERMUX CRASH!!!
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
 pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && pkg install git -y && pkg install proot -y && cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && cd ubuntu-in-termux && chmod +x ubuntu.sh && ./ubuntu.sh -y && ./startubuntu.sh
