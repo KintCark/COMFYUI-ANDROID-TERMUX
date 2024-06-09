@@ -45,3 +45,13 @@ cd ubuntu-in-termux && ./startubuntu.sh
 cd ComfyUI
 
 python main.py --cpu --force-fp16 --use-split-cross-attention
+
+
+YOU NEED THIS TERMUX MOD VERSION THIS IS THE ONE I USED!
+
+
+https://github.com/KitsunedFox/termux-monet
+
+
+
+
