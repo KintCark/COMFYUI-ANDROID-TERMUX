@@ -1,6 +1,7 @@
-THIS WORKS ON 8gb Ram!!! DISABLE PHANTOM PROCESS KILLLER OR U WON'T BE ABLE TO MAKE IMAGES OVER 320X320!!!!
+Install stable-diffusion-webui on Termux (Android) + PRoot This will guide you on installing ComfyUi on Termux (Android) + PRoot Distro. Make sure that you have a high-end phone to actually make this usable. On my phone with 12GB RAM, launch the webui alone take at least ~ 2 GB RAM, thus making it impossible to load any model and process further.
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
+
 
 pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && pkg install git -y && pkg install proot -y && cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && cd ubuntu-in-termux && chmod +x ubuntu.sh && ./ubuntu.sh -y && ./startubuntu.sh
 
@@ -31,10 +32,6 @@ pip install -r requirements.txt
 
 pip install ffmpeg
 
-Launch the webui. It will take some time to complete first-time installation then everything should be fine
-
-python main.py --cpu --force-fp16 --use-split-cross-attention
-
 Navigate to the webui in your browser
 
 http://127.0.0.1:8188
@@ -43,16 +40,13 @@ To start after rebooting termux after first installation
 
 cd ubuntu-in-termux && ./startubuntu.sh
 
+cd ComfyUI && taskset -c 0-7 python main.py --cpu --force-fp16 --force-upcast-attention --fp16-vae --disable-smart-memory --use-split-cross-attention --preview-method taesd --fp16-text-enc --fp16-unet --cpu-vae
+
+
+Install ComfyUI Manager
+
 cd ComfyUI
 
-python main.py --cpu --force-fp16 --use-split-cross-attention
+cd custom_nodes
 
-
-YOU NEED THIS TERMUX MOD VERSION THIS IS THE ONE I USED!
-
-
-https://github.com/KitsunedFox/termux-monet
-
-
-
-
+git clone https://github.com/ltdrdata/ComfyUI-Manager.git
