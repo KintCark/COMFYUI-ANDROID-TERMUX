@@ -1,3 +1,11 @@
+Animatediff Works only on 12gb Ram and Up.
+Animatediff lcm is best cause it's required less steps,make sure u pick the lcm sampler or you will have burnt images
+I figured this after struggling with 3 videos 😁😂
+
+
+
+
+
 Install ComfyUI on Termux (Android) + PRoot This will guide you on installing ComfyUi on Termux (Android) + PRoot Distro. Make sure that you have a high-end phone to actually make this usable. On my phone with 12GB RAM, launch the webui alone take at least ~ 2 GB RAM, thus making it impossible to load any model and process further.
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
