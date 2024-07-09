@@ -31,15 +31,12 @@ Change the current directory
 
 cd ComfyUI
 
-'Fix' the issue with Python running in PRoot Newer Phones Android 13-14 don't need this Command but all phones are Different.
-
 export ANDROID_DATA=anything
 
 Install required Python packages
 
 pip install -r requirements.txt
 
-pip install ffmpeg
 
 Navigate to the webui in your browser
 
