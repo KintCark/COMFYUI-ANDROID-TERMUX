@@ -49,7 +49,7 @@ To start after rebooting termux after first installation
 
 cd ubuntu-in-termux && ./startubuntu.sh
 
-cd ComfyUI && python main.py --cpu --force-fp16 --force-upcast-attention --fp16-vae --disable-smart-memory --use-split-cross-attention --preview-method taesd --fp16-text-enc --fp16-unet --cpu-vae
+cd ComfyUI && python main.py --cpu --disable-smart-memory --force-fp16 --preview-method taesd --cpu-vae
 
 
 Install ComfyUI Manager
