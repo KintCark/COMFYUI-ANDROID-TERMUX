@@ -1,5 +1,5 @@
 Animatediff Works only on 12gb Ram and Up.
-Animatediff lcm is best cause it's required less steps,make sure u pick the animate lcm lora and animate lcm checpoin!,or you will have burnt images
+Animatediff lcm is best cause it's required less steps,make sure u pick the animate lcm lora and animate lcm checpoint!,or you will have burnt images
 I figured this after struggling with 3 videos 😁😂
 
 
