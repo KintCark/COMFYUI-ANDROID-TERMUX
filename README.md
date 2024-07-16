@@ -6,7 +6,7 @@ I figured this after struggling with 3 videos 😁😂
 
 
 
-Install ComfyUI on Termux (Android) + PRoot This will guide you on installing ComfyUi on Termux (Android) + PRoot Distro. Make sure that you have a high-end phone to actually make this usable. On my phone with 12GB RAM, launch the webui alone take at least ~ 2 GB RAM, thus making it impossible to load any model and process further.
+Install ComfyUI on Termux (Android) + PRoot This will guide you on installing ComfyUi on Termux (Android) + PRoot Distro. Make sure that you have a high-end phone but it can work on lower end devices with 8gb ram it will depend on the cpu ethier snapdragon or mali
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
 
