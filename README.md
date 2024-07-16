@@ -46,7 +46,11 @@ To start after rebooting termux after first installation
 
 cd ubuntu-in-termux && ./startubuntu.sh
 
-cd ComfyUI && python main.py --cpu --disable-smart-memory --force-fp16 --preview-method taesd --cpu-vae
+This Comfyui Command Args give BLAZING FAST text to image Generation I get 512x768 in 4step
+lcm lora in 1 minute,that's all 4 steps!!! 
+
+
+cd ComfyUI && python main.py --cpu --force-fp16 --preview-method taesd --cpu-vae --dont-upcast-attention --disable-cuda-malloc --use-pytorch-cross-attention
 
 
 Install ComfyUI Manager
