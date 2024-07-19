@@ -57,3 +57,6 @@ cd ComfyUI
 cd custom_nodes
 
 git clone https://github.com/ltdrdata/ComfyUI-Manager.git
+
+
+After You install Manager Make Sure To Install Efficiency Nodes!! they are better for Performance And are less messy!!!
