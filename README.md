@@ -47,7 +47,7 @@ cd ubuntu-in-termux && ./startubuntu.sh
 I just Discovered The Best Args Combination you can use SDXL AND LORAS!!! It's 16 seconds per Step!! 50 seconds for 512x320!!! XD it's BLAZING FAST!!!
 
 
-cd ComfyUI && python main.py --cpu --preview-method taesd --cpu-vae --disable-cuda-malloc --use-split-cross-attention --disable-metadata --force-fp16 --fp8_e4m3fn-text-enc --fp8_e4m3fn-unet 
+cd ComfyUI && python main.py --cpu --preview-method taesd --cpu-vae --disable-cuda-malloc --use-split-cross-attention --disable-metadata --force-fp16 --fp8_e5m2-text-enc --fp8_e5m2-unet
 
 
 Install ComfyUI Manager
