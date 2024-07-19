@@ -43,11 +43,11 @@ To start after rebooting termux after first installation
 
 cd ubuntu-in-termux && ./startubuntu.sh
 
-This Comfyui Command Args give BLAZING FAST text to image Generation I get 512x768 in 4step
-lcm lora in 1 minute,that's all 4 steps!!! 
+
+I just Discovered The Best Args Combination you can use SDXL AND LORAS!!! It's 16 seconds per Step!! 50 seconds for 512x320!!! XD it's BLAZING FAST!!!
 
 
-cd ComfyUI && python main.py --cpu --force-fp16 --preview-method taesd --cpu-vae --dont-upcast-attention --disable-cuda-malloc --use-pytorch-cross-attention
+cd ComfyUI && python main.py --cpu --preview-method taesd --cpu-vae --disable-cuda-malloc --use-split-cross-attention --disable-metadata --force-fp16 --fp8_e4m3fn-text-enc --fp8_e4m3fn-unet 
 
 
 Install ComfyUI Manager
