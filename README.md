@@ -67,3 +67,10 @@ git clone https://github.com/ltdrdata/ComfyUI-Manager.git
 
 
 After You install Manager Make Sure To Install Efficiency Nodes!! they are better for Performance And are less messy!!! Also install Rgthree's nodes they have an optimized feature that helps load sdxl models.
+
+
+PixArt Sigma Works on 12gb Ram!!!
+
+go here to see how to install it and the required files.
+
+https://civitai.com/models/420163/abominable-spaghetti-workflow-pixart-sigma
