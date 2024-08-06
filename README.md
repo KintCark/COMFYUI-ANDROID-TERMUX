@@ -49,9 +49,9 @@ I just Discovered The Best Args Combination you can use SDXL AND LORAS!!! It's 1
 if u wanna use animatediff u have to change the text-enc and unet to fp16 fp8 works best for sdxl.
 
 
-SDXL
+SDXL/SD3
 
-cd ComfyUI && python main.py --cpu --preview-method taesd --cpu-vae --disable-cuda-malloc --use-split-cross-attention --disable-metadata --force-fp16 --fp8_e5m2-text-enc --fp8_e5m2-unet
+cd ComfyUI && python main.py  --cpu --disable-xformers --preview-method taesd --cpu-vae --disable-cuda-malloc --use-split-cross-attention --disable-metadata --force-fp16 --fp8_e4m3fn-text-enc --fp8_e4m3fn-unet --dont-upcast-attention
 
 SD1.5 ANIMATEDIFF 
 
