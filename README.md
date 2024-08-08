@@ -79,3 +79,5 @@ https://civitai.com/models/420163/abominable-spaghetti-workflow-pixart-sigma
 SD3 clip included Model Works its only 5gb and makes stunning portraits in 6-7 steps. it took an hour to make 7 steps but that's fine with me. don't use the sd3 t5xxl version as it's 10gb and won't work cause the sd3 base model is too big. t5xxl only works with sd1.5 cause it's only 2gb size.12gb ram is required but if u have s phone with more ram ull be able to use sd3 with t5xxl included. 😉 
 
 u can make 512x512 and 256x256 images they are alot faster especially 256x256
+
+I'm testing sd3 clip included t5xxlfp8 version today I'll update this if it works 💪 
