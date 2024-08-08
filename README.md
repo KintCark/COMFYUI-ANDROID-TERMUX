@@ -1,11 +1,3 @@
-Animatediff Works only on 12gb Ram and Up.
-Animatediff lcm is best cause it's required less steps,make sure u pick the animate lcm lora and animate lcm checpoint!,or you will have burnt images
-I figured this after struggling with 3 videos 😁😂
-useing an lcm model is even better for higher quality videos.
-
-
-
-
 Install ComfyUI on Termux (Android) + PRoot This will guide you on installing ComfyUi on Termux (Android) + PRoot Distro. Make sure that you have a high-end phone but it can work on lower end devices with 8gb ram it will depend on the cpu ethier snapdragon or mali
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
@@ -81,3 +73,9 @@ SD3 clip included Model Works its only 5gb and makes stunning portraits in 6-7 s
 u can make 512x512 and 256x256 images they are alot faster especially 256x256
 
 I'm testing sd3 clip included t5xxlfp8 version today I'll update this if it works 💪 
+
+
+Animatediff Works only on 12gb Ram and Up.
+Animatediff lcm is best cause it's required less steps,make sure u pick the animate lcm lora and animate lcm checpoint!,or you will have burnt images
+I figured this after struggling with 3 videos 😁😂
+useing an lcm model is even better for higher quality videos.
