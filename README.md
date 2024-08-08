@@ -72,7 +72,7 @@ SD3 clip included Model Works its only 5gb and makes stunning portraits in 6-7 s
 
 u can make 512x512 and 256x256 images they are alot faster especially 256x256
 
-the t5xxl sd3 included version doesn't work on 12gb Ram cause actually termux says I have 10602 mb of ram not 12 but on my system it say sd I got 12gb so termux is not seeing all my ram or I got scared when buying my phone idk but for now I only can use the 5gb model
+the t5xxl sd3 included version doesn't work on 12gb Ram cause actually termux says I have 10602 mb of ram not 12 but on my system it says I got 12gb so termux is not seeing all my ram or I got scamed when buying my phone idk but for now I only can use the 5gb model
 
 
 Animatediff Works only on 12gb Ram and Up.
