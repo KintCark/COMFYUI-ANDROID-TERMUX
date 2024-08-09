@@ -61,12 +61,14 @@ git clone https://github.com/ltdrdata/ComfyUI-Manager.git
 After You install Manager Make Sure To Install Efficiency Nodes!! they are better for Performance And are less messy!!! Also install Rgthree's nodes they have an optimized feature that helps load sdxl models.
 
 
-PixArt Sigma Works on 12gb Ram!!!
+PixArt Sigma XL 2 Works on 12gb Ram!!!
 
 go here to see how to install it and the required files.
 
 https://civitai.com/models/420163/abominable-spaghetti-workflow-pixart-sigma
 
+
+PixArt Sigma 900m Pruned v0.6 Works In the Above Workflow!!I found a pruned pixart sigma 900m model I finally can use 900m!!but it slow as heck 12 steps take 1 hour for 512x1024 I'm testing other smaller resolutions cause on hugging face space u can generate 256x256 images so this is 1024 version but we should be able to make smaller resolutions for speed I'm trying 256x512 right now I'll let yall know if it's fast:)
 
 SD3 clip included Model Works its only 5gb and makes stunning portraits in 6-7 steps. it took an hour to make 7 steps but that's fine with me. 12gb ram is required but if u have a phone with more ram ull be able to use sd3 with t5xxl included. 😉 
 
