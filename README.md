@@ -77,6 +77,8 @@ the t5xxl sd3 included version doesn't work on 12gb Ram cause actually termux sa
 I Found an. Animatediff Workflow That's Twice as Fast!!! it's better than Gen 2 nodes😁 gen1 animatediff nodes are faster and use less memory
 here is the link just copy the code go to a text editor and paste all the json code into it then save it as json file. i can generate 8 batch 2-4 steps in 10 to 7 minutes!!!
 
+https://github.com/dezi-ai/ComfyUI-AnimateLCM/blob/main/workflows/animatelcm.json
+
 
 Ollama LLM Works But only light weight models 0.5-3b models as bigger models use more ram. u can run multiple sessions in termux to use it first install ollama in termux after installing  ubuntu
 
