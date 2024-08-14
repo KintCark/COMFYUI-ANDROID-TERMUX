@@ -74,10 +74,8 @@ u can make 512x512 and 256x256 images they are alot faster especially 256x256
 the t5xxl sd3 included version doesn't work on 12gb Ram cause actually termux says I have 10602 mb of ram not 12 but on my system it says I got 12gb so termux is not seeing all my ram or I got scamed when buying my phone idk but for now I only can use the 5gb model
 
 
-Animatediff Works only on 12gb Ram and Up.
-Animatediff lcm is best cause it's required less steps,make sure u pick the animate lcm lora and animate lcm checpoint!,or you will have burnt images
-I figured this after struggling with 3 videos 😁😂
-useing an lcm model is even better for higher quality videos.
+I Found an. Animatediff Workflow That's Twice as Fast!!! it's better than Gen 2 nodes😁 gen1 animatediff nodes are faster and use less memory
+here is the link just copy the code go to a text editor and paste all the json code into it then save it as json file. i can generate 8 batch 2-4 steps in 10 to 7 minutes!!!
 
 
 Ollama LLM Works But only light weight models 0.5-3b models as bigger models use more ram. u can run multiple sessions in termux to use it first install ollama in termux after installing  ubuntu
