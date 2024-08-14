@@ -79,6 +79,7 @@ here is the link just copy the code go to a text editor and paste all the json c
 
 https://github.com/dezi-ai/ComfyUI-AnimateLCM/blob/main/workflows/animatelcm.json
 
+Make Sure you use taesd and only 320x512 I tried 512x512 but it crashed we finally can use text to video offline on portable devices don't have to wait hours for generated video plus it's lcm😄
 
 Ollama LLM Works But only light weight models 0.5-3b models as bigger models use more ram. u can run multiple sessions in termux to use it first install ollama in termux after installing  ubuntu
 
