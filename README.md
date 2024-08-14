@@ -81,3 +81,23 @@ Animatediff Works only on 12gb Ram and Up.
 Animatediff lcm is best cause it's required less steps,make sure u pick the animate lcm lora and animate lcm checpoint!,or you will have burnt images
 I figured this after struggling with 3 videos 😁😂
 useing an lcm model is even better for higher quality videos.
+
+
+Ollama LLM Works But only light weight models 0.5-3b models as bigger models use more ram. u can run multiple sessions in termux to use it first install ollama in termux after installing  ubuntu
+
+curl -fsSL https://ollama.com/install.sh | sh
+
+then type ollama serve then start a new termux session,login to ubuntu.
+
+then go to Olla website and pick any 0.5-3b model copy the name of the model
+
+then make sure u know the correct model weight
+then in the new termux session type
+
+ollama pull dolphin-phi:2.7b
+
+then after download finished start comfyui
+then download an if_ai node workflow then download all requirements.then download marco file manager in Google play store then Move the IF_AI folder from the ComfyUI-IF_AI_tools to inside the root input ComfyUI/input/ then after that you may have trouble seeing your ollama models, don't worry they are there just tap local host and put 127.0.0.1 then restart comfyui server,after that tap on a different model then u should see some models appear go back to ollama and models should be there.
+
+
+
