@@ -1,5 +1,8 @@
 FLUX WORKS!!!!! All you need is FLUX 1 shnell gguf q4_0 from huggingface then download the text encoder 2 4bit t5xxl from FLUX 4bit in huggingface then download the clip l file needed for FLUX then put the gguf in your unit folder and put clip and model.safetensors file from text encoder 2 from FLUX 4bit and put it in the clip folder in your models folder then go to comfyui and install gguf extension then load the FLUX workflow load the unit gguf loader and replace the unet FLUX loader connect the same cables that are connected to the unet loader to the gguf unit loader. YOU NEED 12 GB RAM TO RUN FLUX Q4_0!
 
+
+update:image came out black I think it's because I used ae.sft vae or I had don't upcast sampling or I didn't use rgthree's nodes I'm still testing.
+
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
 
 
