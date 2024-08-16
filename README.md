@@ -1,7 +1,7 @@
 FLUX WORKS!!!!! All you need is FLUX 1 shnell gguf q4_0 from huggingface then download the text encoder 2 4bit t5xxl from FLUX 4bit in huggingface then download the clip l file needed for FLUX then put the gguf in your unit folder and put clip and model.safetensors file from text encoder 2 from FLUX 4bit and put it in the clip folder in your models folder.then go to comfyui and install gguf extension then load the FLUX workflow load the unit gguf loader and replace the unet FLUX loader connect the same cables that are connected to the unet loader to the gguf unit loader. YOU NEED 12 GB RAM TO RUN FLUX Q4_0!
 
 
-update: there's a taesd flux vae but comfyui can't detect it so I put it in the vae main folder. it's generating good stuff so far but I gotta put close up in my prompt the subject is far away I'm trying to show her holding a sign that says Flux Me! 😂
+update: flux fp8 works vae.enjoy flux on android finally 😁
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
 
