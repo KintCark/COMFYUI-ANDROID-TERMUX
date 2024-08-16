@@ -1,4 +1,4 @@
-Install ComfyUI on Termux (Android) + PRoot This will guide you on installing ComfyUi on Termux (Android) + PRoot Distro. Make sure that you have a high-end phone but it can work on lower end devices with 8gb ram it will depend on the cpu ethier snapdragon or mali
+FLUX WORKS!!!!! All you need is FLUX 1 shnell gguf q4_0 from huggingface then download the text encoder 2 4bit t5xxl from FLUX 4bit in huggingface then download the clip l file needed for FLUX then put the gguf in your unit folder and put clip and model.safetensors file from text encoder 2 from FLUX 4bit and put it in the clip folder in your models folder then go to comfyui and install gguf extension then load the FLUX workflow load the unit gguf loader and replace the unet FLUX loader connect the same cables that are connected to the unet loader to the gguf unit loader. YOU NEED 12 GB RAM TO RUN FLUX Q4_0!
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
 
