@@ -1,7 +1,7 @@
 FLUX WORKS!!!!! All you need is FLUX 1 shnell gguf q4_0 from huggingface then download the text encoder 2 4bit t5xxl from FLUX 4bit in huggingface then download the clip l file needed for FLUX then put the gguf in your unit folder and put clip and model.safetensors file from text encoder 2 from FLUX 4bit and put it in the clip folder in your models folder.then go to comfyui and install gguf extension then load the FLUX workflow load the unit gguf loader and replace the unet FLUX loader connect the same cables that are connected to the unet loader to the gguf unit loader. YOU NEED 12 GB RAM TO RUN FLUX Q4_0!
 
 
-update: flux fp8 works vae.enjoy flux on android finally 😁
+update: flux qauntized models both schnell and dev q4_0,q4_1,and q5_0 Works!!! I'm trying to see if I can find an t5xxl q5 version the only ones I found are t5xxl 4bit and fp8 someone please make t5 q5_0 version please. ik there has to be a way to use t5fp8 it will give better images than t5 4bit I hope it works ill update if I find a way to squeeze it in 12gb ram somehow:) forge supports gguf and I can use lowram and lowvram args but I'm not install that right now cause if I do it will conflict with comfyui.
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
 
