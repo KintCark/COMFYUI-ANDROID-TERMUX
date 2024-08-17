@@ -52,7 +52,7 @@ if u wanna use animatediff u have to change the text-enc and unet to fp16 fp8 wo
 
 SDXL/SD3/FLUX
 
-cd ComfyUI && python main.py --cpu --disable-xformers --preview-method taesd --cpu-vae --disable-cuda-malloc --use-split-cross-attention --force-fp16 --fp8_e5m2-text-enc --fp8_e5m2-unet --disable-smart-memory
+cd ComfyUI && python main.py --cpu --disable-xformers --preview-method taesd --cpu-vae --disable-cuda-malloc --use-split-cross-attention --force-fp16 --fp8_e4m3fn-text-enc --fp8_e4m3fn-unet --disable-smart-memory
 
 SD1.5 ANIMATEDIFF 
 
