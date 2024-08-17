@@ -1,7 +1,13 @@
+UPDATE:DON'T Install Rgthree's Extension It Uses More Ram to Speed Up your Generation. for flux Rgthree's nodes is not needed! once Rgthree's nodes gets updated to latest comfyui release I will testing it to see if I can use it in flux if not I'll let you know but right now it's working without Rgthree's nodes.
+
+
+
+
+
 FLUX WORKS!!!!! All you need is FLUX 1 shnell gguf q4_0 from civitai then download the text encoder 2 4bit t5xxl from FLUX 4bit in huggingface then download the clip l file needed for FLUX then put the gguf in your unit folder and put clip and model.safetensors file from text encoder 2 from FLUX 4bit and put it in the clip folder in your models folder.then go to comfyui and install gguf extension then load the FLUX workflow load the unit gguf loader and replace the unet FLUX loader connect the same cables that are connected to the unet loader to the gguf unit loader. YOU NEED 12 GB RAM TO RUN FLUX Q4_0!flux qauntized models both schnell and dev q4_0,q4_1,and q5_0 Works!!
 
 
-update: there's a special flux workflow that uses less ram by splitting the sigma I got t5xxlfp8 to work with it it makes stunning images XD!!! here is the work flow u just need to add the gguf extension like I said above: https://drive.google.com/file/d/14TPL36iHXB2B6R12VZfemKaWfNhRHu3o/view?pli=1
+there's a special flux workflow that uses less ram by splitting the sigma I got t5xxlfp8 to work with it it makes stunning images XD!!! here is the work flow u just need to add the gguf extension like I said above: https://drive.google.com/file/d/14TPL36iHXB2B6R12VZfemKaWfNhRHu3o/view?pli=1
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
 
@@ -44,9 +50,9 @@ I just Discovered The Best Args Combination you can use SDXL AND LORAS!!! It's 1
 if u wanna use animatediff u have to change the text-enc and unet to fp16 fp8 works best for sdxl.
 
 
-SDXL/SD3
+SDXL/SD3/FLUX
 
-cd ComfyUI && python main.py --cpu --disable-xformers --preview-method taesd --cpu-vae --disable-cuda-malloc --use-split-cross-attention --disable-metadata --force-fp16 --fp8_e4m3fn-text-enc --fp8_e4m3fn-unet --disable-smart-memory --dont-upcast-attention
+cd ComfyUI && python main.py --cpu --disable-xformers --preview-method taesd --cpu-vae --disable-cuda-malloc --use-split-cross-attention --force-fp16 --fp8_e5m2-text-enc --fp8_e5m2-unet --disable-smart-memory
 
 SD1.5 ANIMATEDIFF 
 
@@ -61,7 +67,7 @@ cd custom_nodes
 git clone https://github.com/ltdrdata/ComfyUI-Manager.git
 
 
-After You install Manager Make Sure To Install Efficiency Nodes!! they are better for Performance And are less messy!!! Also install Rgthree's nodes they have an optimized feature that helps load sdxl models.
+After You install Manager Make Sure To Install Efficiency Nodes!! they are better for Performance And are less messy!!!
 
 
 PixArt Sigma XL 2 Works on 12gb Ram!!!
