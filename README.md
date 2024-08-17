@@ -1,13 +1,5 @@
-UPDATE:DON'T Install Rgthree's Extension It Uses More Ram to Speed Up your Generation. for flux Rgthree's nodes is not needed! once Rgthree's nodes gets updated to latest comfyui release I will testing it to see if I can use it in flux if not I'll let you know but right now it's working without Rgthree's nodes.
+FLUX WORKS!!!!! all gguf versions work!! we can make stunning images with shnell q8 t5xxlfp16 and only 1 step XD!! use q8_0 flux version and t5xxlfp16 for best quality u only need this workflow:https://civitai.com/models/652884/flux-gguf-android-termux download v2.0
 
-
-
-
-
-FLUX WORKS!!!!! All you need is FLUX 1 shnell gguf q4_0 from civitai then download the text encoder 2 4bit t5xxl from FLUX 4bit in huggingface then download the clip l file needed for FLUX then put the gguf in your unit folder and put clip and model.safetensors file from text encoder 2 from FLUX 4bit and put it in the clip folder in your models folder.then go to comfyui and install gguf extension then load the FLUX workflow load the unit gguf loader and replace the unet FLUX loader connect the same cables that are connected to the unet loader to the gguf unit loader. YOU NEED 12 GB RAM TO RUN FLUX Q4_0!flux qauntized models both schnell and dev q4_0,q4_1,and q5_0 Works!!
-
-
-there's a special flux workflow that uses less ram by splitting the sigma I got t5xxlfp8 to work with it it makes stunning images XD!!! here is the work flow u just need to add the gguf extension like I said above: https://drive.google.com/file/d/14TPL36iHXB2B6R12VZfemKaWfNhRHu3o/view?pli=1
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
 
