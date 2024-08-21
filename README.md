@@ -42,13 +42,15 @@ I just Discovered The Best Args Combination you can use SDXL AND LORAS!!! It's 1
 if u wanna use animatediff u have to change the text-enc and unet to fp16 fp8 works best for sdxl.
 
 
+Change Reserve Vram Amount To Your Cpu Ram Amount it tells you in the terminal when you boot comfyui this should help keep from running out of memory when using large models 😀 I didn't think it would work on cpu but the new fast and reserve-vram codes work for cpu
+
 SDXL/SD3/FLUX
 
-cd ComfyUI && python main.py --cpu --disable-xformers --preview-method taesd --cpu-vae --disable-cuda-malloc --use-split-cross-attention --force-fp16 --fp8_e4m3fn-text-enc --fp8_e4m3fn-unet --disable-smart-memory
+cd ComfyUI && python main.py --cpu --disable-xformers --preview-method taesd --cpu-vae --disable-cuda-malloc --use-split-cross-attention --force-fp16 --fp8_e4m3fn-text-enc --fp8_e4m3fn-unet --disable-smart-memory --reserve-vram 10602 --fast
 
 SD1.5 ANIMATEDIFF 
 
-cd ComfyUI && python main.py --cpu --preview-method taesd --cpu-vae --disable-cuda-malloc --use-split-cross-attention --disable-metadata --force-fp16 --fp16-unet --fp16-text-enc
+cd ComfyUI && python main.py --cpu --preview-method taesd --cpu-vae --disable-cuda-malloc --use-split-cross-attention --disable-metadata --force-fp16 --fp16-unet --fp16-text-enc --reserve-vram 10602 --fast
 
 Install ComfyUI Manager
 
