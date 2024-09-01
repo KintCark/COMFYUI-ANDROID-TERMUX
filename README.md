@@ -1,3 +1,6 @@
+Haven't tried cogvideox5b if you do and it works on termux let me know in issues.
+
+
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
 
 
