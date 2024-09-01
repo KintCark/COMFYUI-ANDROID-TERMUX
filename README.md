@@ -1,6 +1,3 @@
-FLUX WORKS!!!!! all gguf versions work!! we can make stunning images with shnell q8 t5xxlfp16 and only 1 step XD!! use q8_0 flux version and t5xxlfp16 for best quality u only need this workflow:https://civitai.com/models/652884/flux-gguf-android-termux download v2.0
-
-
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
 
 
@@ -102,3 +99,4 @@ then download an if_ai node workflow then download all requirements.then downloa
 
 
 
+FLUX WORKS!!!!! all gguf versions work!! we can make stunning images with shnell q8 t5xxlfp16 and only 1 step XD!! use q8_0 flux version and t5xxlfp16 for best quality u only need this workflow:https://civitai.com/models/652884/flux-gguf-android-termux download v2.0
