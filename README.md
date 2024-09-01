@@ -46,11 +46,11 @@ Change Reserve Vram Amount To Your Cpu Ram Amount it tells you in the terminal w
 
 SDXL/SD3/FLUX/AnimateDiff
 
-cd ComfyUI && python main.py --cpu --disable-xformers --preview-method taesd --cpu-vae --disable-cuda-malloc --use-split-cross-attention --force-fp16 --fp8_e4m3fn-text-enc --fp8_e4m3fn-unet --disable-smart-memory --reserve-vram 10602 --fast
+cd ComfyUI && python main.py --cpu --disable-xformers --preview-method taesd --cpu-vae --disable-cuda-malloc --use-split-cross-attention --force-fp16 --fp8_e4m3fn-text-enc --fp8_e4m3fn-unet --disable-smart-memory
 
 SD1.5
 
-cd ComfyUI && python main.py --cpu --preview-method taesd --cpu-vae --disable-cuda-malloc --use-split-cross-attention --disable-metadata --force-fp16 --fp16-unet --fp16-text-enc --reserve-vram 10602 --fast
+cd ComfyUI && python main.py --cpu --preview-method taesd --cpu-vae --disable-cuda-malloc --use-split-cross-attention  --force-fp16 --fp16-unet --fp16-text-enc --disable-smart-memory
 
 Install ComfyUI Manager
 
