@@ -1,5 +1,8 @@
 Update:Haven't tried cogvideox5b if you do and it works on termux let me know in issues.
 
+Update090524:now that animatediff evolved supports fp8 animatediff lighting is super fast 1step in 3 minutes 2 step in 6 and 1step 512x512 in 10 minutes! but I'm trying to figure out y the video is bad quality I've tried adding lcm lora and it's still dark flickering popcorn ceiling look I need help solving this
+if anyone would like to figure it out u can tell me in issues 🙂 
+
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
 
