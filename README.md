@@ -4,6 +4,9 @@ Update090524:now that animatediff evolved supports fp8 animatediff lighting is s
 if anyone would like to figure it out u can tell me in issues 🙂 
 
 
+UPDATE090924:U can fix popcorn glitch by using euler sampler but animatediff still flickering. 
+
+
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
 
 
