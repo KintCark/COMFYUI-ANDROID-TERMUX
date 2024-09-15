@@ -1,7 +1,4 @@
-Update: I found out that lcm lora Speeds up AnimateDiff lightning process I can do 256x256 8 batch in 2 minutes 32 batch in 6 minutes but I also fixed flickering buy using more steps. also put video output on image/gif, not ffmpeg or mp4 those causes deceleration but now I got one more problem to fix with animatediff the video coloring when using loras it worked fine without loras the colors was normal but now that I'm use lora lcm or any lora the video becomes blue and green saturated colors.if anyone know how to fix it let me know in issues 😉 
-
-
-UPDATE090924:U can fix popcorn glitch by using euler sampler but animatediff still flickering. 
+Update091424: I FIXED AnimateDiff i was using the wrong sampler u only need ddmp sample and also dont use animatediff lightning it causes bad colors ibused hypersd15 4step lora with lcm motion lora and ddpm sampler sgm uniform scheduler no context options. 256x512 3 step in 15 minutes 😉  
 
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
