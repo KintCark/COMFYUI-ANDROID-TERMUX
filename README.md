@@ -1,7 +1,4 @@
-Update:Haven't tried cogvideox5b if you do and it works on termux let me know in issues.
-
-Update090524:now that animatediff evolved supports fp8 animatediff lighting is super fast 1step in 3 minutes 2 step in 6 and 1step 512x512 in 10 minutes! but I'm trying to figure out y the video is bad quality I've tried adding lcm lora and it's still dark flickering popcorn ceiling look I need help solving this
-if anyone would like to figure it out u can tell me in issues 🙂 
+Update: I found out that lcm lora Speeds up AnimateDiff lightning process I can do 256x256 8 batch in 2 minutes 32 batch in 6 minutes but I also fixed flickering buy using more steps. also put video output on image/gif, not ffmpeg or mp4 those causes deceleration but now I got one more problem to fix with animatediff the video coloring when using loras it worked fine without loras the colors was normal but now that I'm use lora lcm or any lora the video becomes blue and green saturated colors.if anyone know how to fix it let me know in issues 😉 
 
 
 UPDATE090924:U can fix popcorn glitch by using euler sampler but animatediff still flickering. 
