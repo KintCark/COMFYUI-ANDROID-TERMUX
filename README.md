@@ -1,4 +1,4 @@
-Update091424: I FIXED AnimateDiff i was using the wrong sampler u only need ddmp sample and also dont use animatediff lightning it causes bad colors ibused hypersd15 4step lora with lcm motion lora and ddpm sampler sgm uniform scheduler no context options. 256x512 3 step in 15 minutes 😉  animatediff v3 motion module socks cause it takes everything you say literally like I put woman walking down road twitching her hips as she walks but it showed literally pulsating booty 😆 
+Update092624:putting text encoder on fp8 slows down animatediff I only put fp16 unet command and it's way faster now. I've updated the command arguments👌
 
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
