@@ -44,13 +44,13 @@ if u wanna use animatediff u have to change the text-enc and unet to fp16 fp8 wo
 
 Change Reserve Vram Amount To Your Cpu Ram Amount it tells you in the terminal when you boot comfyui this should help keep from running out of memory when using large models 😀 I didn't think it would work on cpu but the new fast and reserve-vram codes work for cpu
 
-SDXL/SD3/FLUX/AnimateDiff
+SDXL/SD3/FLUX/SD1.5/AnimateDiff-Evolved
 
-cd ComfyUI && python main.py --cpu --disable-xformers --preview-method taesd --cpu-vae --disable-cuda-malloc --use-split-cross-attention --force-fp16 --fp8_e4m3fn-text-enc --fp8_e4m3fn-unet --disable-smart-memory
+cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --use-split-cross-attention --force-fp16 --fp8_e4m3fn-unet --disable-smart-memory --disable-xformers
 
-SD1.5
+Animatediff FP16-Better Quality 
 
-cd ComfyUI && python main.py --cpu --preview-method taesd --cpu-vae --disable-cuda-malloc --use-split-cross-attention  --force-fp16 --fp16-unet --fp16-text-enc --disable-smart-memory
+cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --use-split-cross-attention --force-fp16 --fp16-unet --disable-smart-memory --disable-xformers
 
 Install ComfyUI Manager
 
