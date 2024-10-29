@@ -1,4 +1,4 @@
-Update092624:putting text encoder on fp8 slows down animatediff I only put fp16 unet command and it's way faster now. I've updated the command arguments👌
+Update102924:sd3.5 large,large turbo, and medium,all works use sd3.5 large gguf and if u have more ram use sd3.5 medium with gguf t5xxl q5_0 XD it's faster than flux!!
 
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
@@ -44,7 +44,7 @@ if u wanna use animatediff u have to change the text-enc and unet to fp16 fp8 wo
 
 Change Reserve Vram Amount To Your Cpu Ram Amount it tells you in the terminal when you boot comfyui this should help keep from running out of memory when using large models 😀 I didn't think it would work on cpu but the new fast and reserve-vram codes work for cpu
 
-SDXL/SD3/FLUX/SD1.5/AnimateDiff-Evolved
+SDXL/SD3/SD3.5/FLUX/SD1.5/AnimateDiff-Evolved
 
 cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --use-split-cross-attention --force-fp16 --fp8_e4m3fn-unet --disable-smart-memory --disable-xformers
 
