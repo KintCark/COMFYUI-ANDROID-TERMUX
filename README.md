@@ -25,7 +25,7 @@ export ANDROID_DATA=anything
 
 Install required Python packages
 
-pip install -r requirements.txt
+pip install -r requirements.txt --break-system-packages
 
 
 Navigate to the webui in your browser
