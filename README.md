@@ -37,13 +37,6 @@ To start after rebooting termux after first installation
 cd ubuntu-in-termux && ./startubuntu.sh
 
 
-I just Discovered The Best Args Combination you can use SDXL AND LORAS!!! It's 16 seconds per Step!! 50 seconds for 512x320!!! XD it's BLAZING FAST!!!
-
-if u wanna use animatediff u have to change the text-enc and unet to fp16 fp8 works best for sdxl.
-
-
-Change Reserve Vram Amount To Your Cpu Ram Amount it tells you in the terminal when you boot comfyui this should help keep from running out of memory when using large models 😀 I didn't think it would work on cpu but the new fast and reserve-vram codes work for cpu
-
 SDXL/SD3/SD3.5/FLUX/SD1.5/AnimateDiff-Evolved
 
 cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --use-split-cross-attention --force-fp16 --fp8_e4m3fn-unet --disable-smart-memory --disable-xformers
