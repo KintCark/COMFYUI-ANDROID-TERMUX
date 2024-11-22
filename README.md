@@ -1,4 +1,4 @@
-
+python 3.12 changed the way u use pip I fixed it so the script should work.
 
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
