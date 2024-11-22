@@ -1,4 +1,4 @@
-Update102924:sd3.5 large,large turbo, and medium,all works use sd3.5 large gguf and if u have more ram use sd3.5 medium with gguf t5xxl q5_0 XD it's faster than flux!!
+
 
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
@@ -96,3 +96,5 @@ then download an if_ai node workflow then download all requirements.then downloa
 
 
 FLUX WORKS!!!!! all gguf versions work!! we can make stunning images with shnell q8 t5xxlfp16 and only 1 step XD!! use q8_0 flux version and t5xxlfp16 for best quality u only need this workflow:https://civitai.com/models/652884/flux-gguf-android-termux download v2.0
+
+Update102924:sd3.5 large,large turbo, and medium,all works use sd3.5 large gguf and if u have more ram use sd3.5 medium with gguf t5xxl q5_0 XD it's faster than flux!!
