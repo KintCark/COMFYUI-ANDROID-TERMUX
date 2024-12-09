@@ -1,4 +1,4 @@
-python 3.12 changed the way u use pip. python-distutils package is depreciated in python3.12 I'm trying to figure out how to fix but for now this doesn't work:(
+so comfyui isn't configured for python 3.12 yet I have to make virtual environment for python 3.10
 
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
