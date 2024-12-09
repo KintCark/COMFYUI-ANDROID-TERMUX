@@ -1,4 +1,6 @@
-so comfyui isn't configured for python 3.12 yet I have to make virtual environment for python 3.10
+OK I figured it out once you install confyui download your comfyui node from the github page extract the node then use a file manager copy and paste the node to the custom nodes folder then all you gota do is this code: pip install -r requirements.txt --break-system-packages
+
+u must do this before you start comfyui do not use comfyui manager u have to manually install your nodes.
 
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
