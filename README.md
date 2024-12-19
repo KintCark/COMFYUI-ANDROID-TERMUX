@@ -1,6 +1,4 @@
-OK I figured it out once you install confyui download your comfyui node from the github page extract the node then use a file manager copy and paste the node to the custom nodes folder then all you gota do is this code: pip install -r requirements.txt --break-system-packages
-
-u must do this before you start comfyui do not use comfyui manager u have to manually install your nodes.
+I got Sad News python3.12 is not compatible with comfyui I can't even update comfyui I've been looking everywhere online on how to install old version of python but it not working. u can try it if u know how but I need help,if anyone knows how to install old version  of python then please tell me in issues thx
 
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
@@ -100,3 +98,11 @@ then download an if_ai node workflow then download all requirements.then downloa
 FLUX WORKS!!!!! all gguf versions work!! we can make stunning images with shnell q8 t5xxlfp16 and only 1 step XD!! use q8_0 flux version and t5xxlfp16 for best quality u only need this workflow:https://civitai.com/models/652884/flux-gguf-android-termux download v2.0
 
 Update102924:sd3.5 large,large turbo, and medium,all works use sd3.5 large gguf and if u have more ram use sd3.5 medium with gguf t5xxl q5_0 XD it's faster than flux!!
+
+
+
+OK I figured it out once you install confyui download your comfyui node from the github page extract the node then use a file manager copy and paste the node to the custom nodes folder then all you gota do is this code: pip install -r requirements.txt --break-system-packages
+
+
+
+u must do this before you start comfyui do not use comfyui manager u have to manually install your nodes.
