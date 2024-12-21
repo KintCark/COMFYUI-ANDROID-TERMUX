@@ -1,4 +1,4 @@
-I got Sad News python3.12 is not compatible with comfyui I can't even update comfyui I've been looking everywhere online on how to install old version of python but it not working. u can try it if u know how but I need help,if anyone knows how to install old version  of python then please tell me in issues thx
+hey HunYuanVideo Works But I'm just getting black images idk much about hunyuan but only gguf versions work.
 
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
@@ -37,13 +37,11 @@ To start after rebooting termux after first installation
 cd ubuntu-in-termux && ./startubuntu.sh
 
 
-SDXL/SD3/SD3.5/FLUX/SD1.5/AnimateDiff-Evolved
+cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --use-split-cross-attention --force-fp16 --fp8_e4m3fn-unet --disable-xformers --fp8_e4m3fn-text-enc --fast --disable-smart-memory --bf16-vae
 
-cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --use-split-cross-attention --force-fp16 --fp8_e4m3fn-unet --disable-smart-memory --disable-xformers
+Animatediff FP16-Better Quality
 
-Animatediff FP16-Better Quality 
-
-cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --use-split-cross-attention --force-fp16 --fp16-unet --disable-smart-memory --disable-xformers
+cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --use-split-cross-attention --force-fp16 --fp16-unet --disable-xformers --fp16-text-enc --fast --disable-smart-memory --bf16-vae
 
 Install ComfyUI Manager
 
