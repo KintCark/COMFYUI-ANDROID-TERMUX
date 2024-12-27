@@ -1,4 +1,4 @@
-hey HunYuanVideo Works But I'm just getting black images idk much about hunyuan but only gguf versions work.
+there's a 12gb ram hunyuan video workflow it only works if u add split sigmas node and use the vitgmp long clips idk if 1step works I'm trying fast video lora with 4 steps. takes 2 hours to generate. gotta have patience. 
 
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
