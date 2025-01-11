@@ -1,5 +1,5 @@
 you can now use comfyui on 8 or maybe 6gb ram
-all u need is tile decoder then put it on 384z384 overlap 192 we can now do 1024x1024
+all u need is tile decoder then put it on 384x384 overlap 192 we can now do 1024x1024
 or higher but beware your phone will get 🔥 
 
 
