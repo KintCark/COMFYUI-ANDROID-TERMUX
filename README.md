@@ -1,4 +1,7 @@
-there's a 12gb ram hunyuan video workflow it only works if u add split sigmas node and use the vitgmp long clips idk if 1step works I'm trying fast video lora with 4 steps. takes 2 hours to generate. gotta have patience. 
+you can now use comfyui on 8 or maybe 6gb ram
+all u need is tile decoder then put it on 384z384 overlap 192 we can now do 1024x1024
+or higher but beware your phone will get 🔥 
+
 
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
