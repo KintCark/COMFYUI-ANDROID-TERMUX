@@ -1,6 +1,5 @@
-you can now use comfyui on 8 or maybe 6gb ram
-all u need is tile decoder then put it on 384x384 overlap 192 we can now do 1024x1024
-or higher but beware your phone will get 🔥 
+update011925 I finally figured out how to fix bad colored low quality animations with Animatediff all u gota do is put all motion model samplers at lcm then on ksampler put sampler on euler and scheduler on ddim_uniform
+use motion model v3 fp16 it is faster than Animatediff Lightning now I just gota figure out how to fix double video like after the video finish I get a ghosting in the video but I finally can create videos.btw use hyper sd 4steps with motion model v3 fp16 also pick the correct safetensors I use majmixv7 realistic 😀 
 
 
 
@@ -106,3 +105,8 @@ OK I figured it out once you install confyui download your comfyui node from the
 
 
 u must do this before you start comfyui do not use comfyui manager u have to manually install your nodes.
+
+
+you can now use comfyui on 8 or maybe 6gb ram
+all u need is tile decoder then put it on 384x384 overlap 192 we can now do 1024x1024
+or higher but beware your phone will get 🔥 
