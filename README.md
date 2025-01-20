@@ -1,5 +1,5 @@
 update011925 I finally figured out how to fix bad colored low quality animations with Animatediff all u gota do is put all motion model samplers at lcm then on ksampler put sampler on lcm and scheduler on ddim_uniform
-use motion model v3 fp16 it is faster than Animatediff Lightning 😀 just use lcm lora for non lcm models.
+use motion model v3 fp16 it is faster than Animatediff Lightning 😀 just use lcm lora for non lcm models.also put context stride at 3 and overlap at 8 leave length at 16
 
 
 
