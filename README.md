@@ -1,5 +1,5 @@
-update011925 I finally figured out how to fix bad colored low quality animations with Animatediff all u gota do is put all motion model samplers at lcm then on ksampler put sampler on euler and scheduler on ddim_uniform
-use motion model v3 fp16 it is faster than Animatediff Lightning now I just gota figure out how to fix double video like after the video finish I get a ghosting in the video but I finally can create videos.btw use hyper sd 4steps with motion model v3 fp16 also pick the correct safetensors I use majmixv7 realistic 😀 
+update011925 I finally figured out how to fix bad colored low quality animations with Animatediff all u gota do is put all motion model samplers at lcm then on ksampler put sampler on lcm and scheduler on ddim_uniform
+use motion model v3 fp16 it is faster than Animatediff Lightning 😀 just use lcm lora for non lcm models.
 
 
 
