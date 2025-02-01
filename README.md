@@ -73,21 +73,13 @@ If your Termux does not have python-full=3.10.11 available, consider using a Pro
 
 If running into RAM issues, consider adding swap memory in Termux.
 
-
-
-
-
-OK I figured it out once you install confyui download your comfyui node from the github page extract the node then use a file manager copy and paste the node to the custom nodes folder then all you gota do is this code: pip install -r requirements.txt --break-system-packages
-
-u must do this before you start comfyui do not use comfyui manager u have to manually install your nodes.
-
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
 
 pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && pkg install git -y && pkg install proot -y && cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && cd ubuntu-in-termux && chmod +x ubuntu.sh && ./ubuntu.sh -y && ./startubuntu.sh
 
 Installing ComfyUI Run below commands sequentially as root user in Ubuntu Install basic tools
 
-apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-pip python3-venv python-is-python3 -y && pip install ffmpeg --break-system-packages && apt dist-upgrade -y && apt install wget && apt-get install libgl1 libglib2.0 libsm6 libxrender1 libxext6 -y && apt-get install google-perftools && apt install libgoogle-perftools-dev && pip install moviepy==1.0.3 --break-system-packages && pip install accelerate --break-system-packages && pip install setuptools --break-system-packages && pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu --break-system-packages && pip install sageattention --break-system-packages && apt-get install git-lfs && pip install diffusers --break-system-packages
+apt update && apt upgrade -y && apt-get install curl git gcc make build-essential python3 python3-dev python3-pip python3-venv python-is-python3 -y && pip install ffmpeg && apt dist-upgrade -y && apt install wget && apt-get install libgl1 libglib2.0 libsm6 libxrender1 libxext6 -y && apt-get install google-perftools && apt install libgoogle-perftools-dev && pip install moviepy==1.0.3 && pip install accelerate && pip install setuptools && pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu --break-system-packages && pip install sageattention && apt-get install git-lfs && pip install diffusers
 
 Clone the repository
 
@@ -101,7 +93,7 @@ export ANDROID_DATA=anything
 
 Install required Python packages
 
-pip install -r requirements.txt --break-system-packages
+pip install -r requirements.txt
 
 Navigate to the webui in your browser
 
