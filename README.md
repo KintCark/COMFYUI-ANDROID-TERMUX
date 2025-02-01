@@ -1,5 +1,79 @@
-update011925 I finally figured out how to fix bad colored low quality animations with Animatediff all u gota do is put all motion model samplers at lcm then on ksampler put sampler on lcm and scheduler on ddim_uniform
-use motion model v3 fp16 it is faster than Animatediff Lightning 😀 just use lcm lora for non lcm models.also put context stride at 3 and overlap at 8 leave length at 16
+
+Looks like Python 3.12 actually Works!! U have to create a virtual environment so here is the guide:
+
+
+To run ComfyUI in a separate environment on Termux with Python 3.10.11, follow these steps:
+
+
+---
+
+1. Install Required Packages
+
+First, ensure your Termux is updated and install necessary packages:
+
+apt update -y && apt upgrade -y
+apt install python3-full git ffmpeg
+
+
+---
+
+2. Install & Setup a Virtual Environment
+
+Create and activate a virtual environment:
+
+python3 -m venv comfyui-env
+source comfyui-env/bin/activate
+
+
+---
+
+3. Clone ComfyUI Repository
+
+Download ComfyUI from GitHub:
+
+git clone https://github.com/comfyanonymous/ComfyUI.git
+cd ComfyUI
+
+
+---
+
+4. Install Dependencies
+
+Since you are using CPU-only, install the necessary requirements:
+
+pip install --no-cache-dir torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+pip install --no-cache-dir -r requirements.txt
+
+
+---
+
+5. Run ComfyUI
+
+Now, launch ComfyUI in your virtual environment:
+
+python main.py
+
+
+---
+
+6. (Optional) Deactivate Environment
+
+If you want to exit the virtual environment, run:
+
+deactivate
+
+
+---
+
+Additional Notes:
+
+This setup ensures ComfyUI runs in a separate environment, avoiding conflicts with system packages.
+
+If your Termux does not have python-full=3.10.11 available, consider using a Proot-Distro like Ubuntu to run Python 3.10.11.
+
+If running into RAM issues, consider adding swap memory in Termux.
+
+
 
 
 
@@ -104,3 +178,6 @@ then after download finished start comfyui then download an if_ai node workflow 
 FLUX WORKS!!!!! all gguf versions work!! we can make stunning images with shnell q8 t5xxlfp16 and only 1 step XD!! use q8_0 flux version and t5xxlfp16 for best quality u only need this workflow:https://civitai.com/models/652884/flux-gguf-android-termux download v2.0
 
 Update102924:sd3.5 large,large turbo, and medium,all works use sd3.5 large gguf and if u have more ram use sd3.5 medium with gguf t5xxl q5_0 XD it's faster than flux!!
+
+update011925 I finally figured out how to fix bad colored low quality animations with Animatediff all u gota do is put all motion model samplers at lcm then on ksampler put sampler on lcm and scheduler on ddim_uniform
+use motion model v3 fp16 it is faster than Animatediff Lightning 😀 just use lcm lora for non lcm models.also put context stride at 3 and overlap at 8 leave length at 16
