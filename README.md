@@ -1,5 +1,5 @@
 Before installing virtual environment
-make sure u install ununtu in termux first 
+make sure u install ubuntu in termux first 
 
 
 Looks like Python 3.12 actually Works!! U have to create a virtual environment so here is the guide:
