@@ -1,3 +1,8 @@
+Wan 2.1 Works but only maxed to 256x256 on 12gb Ram use gguf version!
+
+
+
+
 Before installing virtual environment
 make sure u install ubuntu in termux first 
 
