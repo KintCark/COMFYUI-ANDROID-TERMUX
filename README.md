@@ -1,6 +1,6 @@
 Wan 2.1 Works but only maxed to 256x256 on 12gb Ram use gguf version!
 
-
+ubuntu-in-termux is not working at the moment so u found another way to install ubuntu;]
 
 
 Before installing virtual environment
@@ -83,7 +83,8 @@ If running into RAM issues, consider adding swap memory in Termux.
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
 
-pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && pkg install git -y && pkg install proot -y && cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && cd ubuntu-in-termux && chmod +x ubuntu.sh && ./ubuntu.sh -y && ./startubuntu.sh
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
+
 
 Installing ComfyUI Run below commands sequentially as root user in Ubuntu Install basic tools
 
