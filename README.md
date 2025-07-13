@@ -93,9 +93,20 @@ Clone the repository
 
 git clone https://github.com/comfyanonymous/ComfyUI
 
+
+I Found a modded comfyui that only uses cpu this is perfect for android hopefully it's faster!
+
+
+git clone https://github.com/ArdeniusAI/ComfyUI-cpu.git
+
+
 Change the current directory
 
 cd ComfyUI
+
+if u wanna try ComfyUI-cpu then 
+
+cd ComfyUI-cpu
 
 export ANDROID_DATA=anything
 
