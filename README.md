@@ -1,6 +1,6 @@
 Wan 2.1 Works but only maxed to 256x256 on 12gb Ram use gguf version!
 
-ubuntu-in-termux is not working at the moment so u found another way to install ubuntu;]
+ubuntu-in-termux is not working at the moment can't start ubuntu.sh file it worked 2 days ago but now it's not working 😢 
 
 
 Before installing virtual environment
