@@ -85,11 +85,6 @@ Prerequisites First you have to install Termux and install PRoot. Then install a
 
 pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && pkg install git -y && pkg install proot -y && cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && cd ubuntu-in-termux && chmod +x ubuntu.sh && ./ubuntu.sh -y && ./startubuntu.sh
 
-to start ubuntu after installing 
-
-
-bash ./start-ubuntu.sh
-
 
 Installing ComfyUI Run below commands sequentially as root user in Ubuntu Install basic tools
 
