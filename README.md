@@ -113,7 +113,7 @@ cd ubuntu-in-termux && ./startubuntu.sh
 
 SDXL/SD3/SD3.5/FLUX/SD1.5/AnimateDiff-Evolved
 
-cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --force-fp16 --fp8_e4m3fn-unet --disable-xformers --fp8_e4m3fn-text-enc --fast --disable-smart-memory --use-split-cross-attention
+cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --force-fp16 --fp8_e4m3fn-unet --disable-xformers --fp8_e4m3fn-text-enc --fast --disable-smart-memory --use-split-cross-attention --reserve-vram --use-flash-attention 
 
 Animatediff FP16-Better Quality
 
@@ -181,3 +181,62 @@ Update102924:sd3.5 large,large turbo, and medium,all works use sd3.5 large gguf 
 
 update011925 I finally figured out how to fix bad colored low quality animations with Animatediff all u gota do is put all motion model samplers at lcm then on ksampler put sampler on lcm and scheduler on ddim_uniform
 use motion model v3 fp16 it is faster than Animatediff Lightning 😀 just use lcm lora for non lcm models.also put context stride at 3 and overlap at 8 leave length at 16
+
+
+
+
+
+
+
+
+
+[-h] [--listen [IP]] [--port PORT]                    [--tls-keyfile TLS_KEYFILE]                           [--tls-certfile TLS_CERTFILE]
+               [--enable-cors-header [ORIGIN]]
+               [--max-upload-size MAX_UPLOAD_SIZE]
+               [--base-directory BASE_DIRECTORY]
+               [--extra-model-paths-config PATH [PATH ...]]
+               [--output-directory OUTPUT_DIRECTORY]
+               [--temp-directory TEMP_DIRECTORY]
+               [--input-directory INPUT_DIRECTORY]
+               [--auto-launch]
+               [--disable-auto-launch]
+               [--cuda-device DEVICE_ID]
+               [--cuda-malloc | --disable-cuda-malloc]
+               [--force-fp32 | --force-fp16]
+               [--fp32-unet | --fp64-unet | --bf16-unet | --fp16-unet | --fp8_e4m3fn-unet | --fp8_e5m2-unet | --fp8_e8m0fnu-unet]
+               [--fp16-vae | --fp32-vae | --bf16-vae]
+               [--cpu-vae]
+               [--fp8_e4m3fn-text-enc | --fp8_e5m2-text-enc | --fp16-text-enc | --fp32-text-enc | --bf16-text-enc]
+               [--force-channels-last]
+               [--directml [DIRECTML_DEVICE]]
+               [--oneapi-device-selector SELECTOR_STRING]
+               [--disable-ipex-optimize]
+               [--supports-fp8-compute]
+               [--preview-method [none,auto,latent2rgb,taesd]]
+               [--preview-size PREVIEW_SIZE]
+               [--cache-classic | --cache-lru CACHE_LRU | --cache-none]
+               [--use-split-cross-attention | --use-quad-cross-attention | --use-pytorch-cross-attention | --use-sage-attention | --use-flash-attention]
+               [--disable-xformers]
+               [--force-upcast-attention | --dont-upcast-attention]
+               [--gpu-only | --highvram | --normalvram | --lowvram | --novram | --cpu]
+               [--reserve-vram RESERVE_VRAM]
+               [--async-offload]
+               [--default-hashing-function {md5,sha1,sha256,sha512}]
+               [--disable-smart-memory]
+               [--deterministic] [--fast [FAST ...]]
+               [--mmap-torch-files]
+               [--dont-print-server]
+               [--quick-test-for-ci]
+               [--windows-standalone-build]
+               [--disable-metadata]
+               [--disable-all-custom-nodes]
+               [--whitelist-custom-nodes WHITELIST_CUSTOM_NODES [WHITELIST_CUSTOM_NODES ...]]
+               [--disable-api-nodes] [--multi-user]
+               [--verbose [{DEBUG,INFO,WARNING,ERROR,CRITICAL}]]
+               [--log-stdout]
+               [--front-end-version FRONT_END_VERSION]
+               [--front-end-root FRONT_END_ROOT]
+               [--user-directory USER_DIRECTORY]
+               [--enable-compress-response-body]
+               [--comfy-api-base COMFY_API_BASE]
+               [--database-url DATABASE_URL]
