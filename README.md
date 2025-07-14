@@ -55,11 +55,6 @@ pip install --no-cache-dir -r requirements.txt
 
 ---
 
-5. Run ComfyUI
-
-Now, launch ComfyUI in your virtual environment:
-
-python main.py
 
 
 ---
