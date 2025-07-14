@@ -1,6 +1,6 @@
 Wan 2.1 Works but only maxed to 256x256 on 12gb Ram use gguf version!
 
-ubuntu-in-termux is not working at the moment can't start ubuntu.sh file it worked 2 days ago but now it's not working 😢 
+I Found a better ubuntu installer plus it uses python 3.10 so no longer need to use virtual environment unless u want too, We Back Baaaabyyy!!
 
 
 Before installing virtual environment
@@ -83,8 +83,7 @@ If running into RAM issues, consider adding swap memory in Termux.
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
 
-apt-get update && apt-get upgrade -y && termux-setup-storage && pkg install wget -y && pkg install git -y && pkg install proot -y && cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && cd ubuntu-in-termux && chmod +x ubuntu.sh && ./ubuntu.sh -y && ./startubuntu.sh
-
+pkg update -y && pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu22/ubuntu22.sh -O ubuntu22.sh && chmod +x ubuntu22.sh && bash ubuntu22.sh
 
 Installing ComfyUI Run below commands sequentially as root user in Ubuntu Install basic tools
 
