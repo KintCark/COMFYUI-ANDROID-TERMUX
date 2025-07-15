@@ -1,6 +1,7 @@
-Wan 2.1, hunyuan, ltxv Works but only maxed to 256x256 on 12gb Ram use gguf version!
-
 we can't use comfyui on termux anymore something is wrong with the repo if the new repo installs python 3.10.12 but I keep getting errors about comfyui registry can't use ltxv anything I was just about to try img2vid with ltxv if someone can fix ubuntu-in-termux then we can go back to using comfyui it's broken for me idk about others😢
+
+
+Wan 2.1, hunyuan, ltxv Works but only maxed to 256x256 on 12gb Ram use gguf version!
 
 
 Before installing virtual environment
