@@ -1,4 +1,4 @@
-Wan 2.1 Works but only maxed to 256x256 on 12gb Ram use gguf version!
+Wan 2.1, hunyuan, ltxv Works but only maxed to 256x256 on 12gb Ram use gguf version!
 
 I Found a better ubuntu installer plus it uses python 3.10 so no longer need to use virtual environment unless u want too, We Back Baaaabyyy!!
 
