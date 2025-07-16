@@ -1,4 +1,4 @@
-OK I fixed it all you gota do is download the nodes you want then shutdown termux and boot up again sign into Ubuntu then go to the custom nodes folder then u gota pip install -r requirements.txt on every node u installed if it doesn't have a requirements.txt then just move onto the next one once I did this I was able to run ltxv workflow I also added some new Dependencies to the install script just rerun that too to install the new Dependencies 😉 
+I fixed it all you gota do is download the nodes you want then shutdown termux and boot up again sign into Ubuntu then go to the custom nodes folder then u gota pip install -r requirements.txt on every node u installed if it doesn't have a requirements.txt then just move onto the next one once I did this I was able to run ltxv workflow I also added some new Dependencies to the install script just rerun that too to install the new Dependencies 😉 
 
 
 Wan 2.1, hunyuan, ltxv Works but only maxed to 256x256 on 12gb Ram use gguf version!
@@ -120,7 +120,7 @@ cd ubuntu-in-termux && ./startubuntu.sh
 
 SDXL/SD3/SD3.5/FLUX/SD1.5/AnimateDiff-Evolved/GGUF models 
 
-cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --force-fp16 --fp8_e4m3fn-unet --disable-xformers --fp8_e4m3fn-text-enc --fast --disable-smart-memory --use-split-cross-attention
+cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --force-fp16 fp8_e8m0fnu-unet --disable-xformers --fp8_e4m3fn-text-enc --fast --disable-smart-memory --use-split-cross-attention --supports-fp8-compute
 
 Animatediff FP16-Better Quality
 
