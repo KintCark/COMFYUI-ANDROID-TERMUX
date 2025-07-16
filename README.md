@@ -118,7 +118,7 @@ To start after rebooting termux after first installation
 
 cd ubuntu-in-termux && ./startubuntu.sh
 
-SDXL/SD3/SD3.5/FLUX/SD1.5/AnimateDiff-Evolved
+SDXL/SD3/SD3.5/FLUX/SD1.5/AnimateDiff-Evolved/GGUF models 
 
 cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --force-fp16 --fp8_e8m0fnu-unet --disable-xformers --fp8_e4m3fn-text-enc --fast --disable-smart-memory --use-split-cross-attention
 
