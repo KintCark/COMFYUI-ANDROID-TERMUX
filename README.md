@@ -1,4 +1,4 @@
-we can't use comfyui on termux anymore something is wrong with the repo if the new repo installs python 3.10.12 but I keep getting errors about comfyui registry can't use ltxv anything I was just about to try img2vid with ltxv if someone can fix ubuntu-in-termux then we can go back to using comfyui it's broken for me idk about others😢
+OK I fixed it all you gota do is download the nodes you want then shutdown termux and boot up again sign into Ubuntu then go to the custom nodes folder then u gota pip install -r requirements.txt on every node u installed if it doesn't have a requirements.txt then just move onto the next one once I did this I was able to run ltxv workflow I also added some new Dependencies to the install script just rerun that too to install the new Dependencies 😉 
 
 
 Wan 2.1, hunyuan, ltxv Works but only maxed to 256x256 on 12gb Ram use gguf version!
