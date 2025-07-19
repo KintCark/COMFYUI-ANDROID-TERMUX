@@ -190,7 +190,73 @@ update011925 I finally figured out how to fix bad colored low quality animations
 use motion model v3 fp16 it is faster than Animatediff Lightning 😀 just use lcm lora for non lcm models.also put context stride at 3 and overlap at 8 leave length at 16
 
 
+To install `matplotlib.pyplot` in Termux on Android (Ubuntu Linux environment isn't necessary), follow these steps:
 
+### 1. **Update Termux Packages**
+   ```bash
+   pkg update
+   pkg upgrade
+   ```
+
+### 2. **Install Required Dependencies**
+   ```bash
+   pkg install python python-numpy libjpeg-turbo libpng
+   ```
+
+### 3. **Install Matplotlib via pip**
+   ```bash
+   pip install matplotlib --no-build-isolation
+   ```
+   The `--no-build-isolation` flag avoids build issues in Termux's environment.
+
+---
+
+### **Troubleshooting Common Issues**
+#### If installation fails:
+1. **Ensure all dependencies are installed**:
+   ```bash
+   pkg install freetype pkg-config libcrypt
+   ```
+
+2. **Install build tools** (if needed for dependencies):
+   ```bash
+   pkg install clang make binutils
+   ```
+
+3. **Reinstall with verbose mode** (if errors persist):
+   ```bash
+   pip install -v matplotlib --no-build-isolation
+   ```
+
+---
+
+### **Test the Installation**
+1. Launch Python:
+   ```bash
+   python
+   ```
+2. In the Python shell:
+   ```python
+   import matplotlib.pyplot as plt
+   plt.plot([1, 2, 3], [4, 5, 1])
+   plt.show()
+   ```
+   - If no GUI appears (common in Termux), save the plot instead:
+     ```python
+     plt.savefig("test.png")
+     ```
+     View the image with a file manager or Termux command (e.g., `termux-open test.png`).
+
+---
+
+### **Notes**
+- **GUI Support**: Termux lacks native GUI, so `plt.show()` won't display plots interactively. Save plots as files instead.
+- **Lightweight Alternative**: Use `termplotlib` for text-based plots in the terminal:
+  ```bash
+  pip install termplotlib
+  ```
+
+This method ensures a smooth installation of `matplotlib` in Termux without requiring an Ubuntu environment.
 
 
 
