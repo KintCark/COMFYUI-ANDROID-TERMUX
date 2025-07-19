@@ -124,7 +124,7 @@ cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-m
 
 Animatediff FP16-Better Quality
 
-cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --use-pytorch-cross-attention --force-fp16 --fp16-unet --disable-xformers --fp16-text-enc --fast --disable-smart-memory
+cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --use-pytorch-cross-attention --force-fp16 --fp16-unet --disable-xformers --fp16-text-enc --fast --disable-smart-memory --fp16-vae
 
 Sana 600M
 
