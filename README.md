@@ -120,7 +120,7 @@ cd ubuntu-in-termux && ./startubuntu.sh
 
 SDXL/SD3/SD3.5/FLUX/SD1.5/AnimateDiff-Evolved/GGUF models 
 
-cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --force-fp16 --fp8_e8m0fnu-unet --disable-xformers --fp8_e4m3fn-text-enc --fast --disable-smart-memory --use-split-cross-attention --supports-fp8-compute
+cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --force-fp16 --fp8_e8m0fnu-unet --disable-xformers --fp8_e4m3fn-text-enc --fast --disable-smart-memory --use-pytorch-cross-attention --supports-fp8-compute
 
 Animatediff FP16-Better Quality
 
