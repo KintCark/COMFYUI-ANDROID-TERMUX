@@ -315,3 +315,50 @@ This method ensures a smooth installation of `matplotlib` in Termux without requ
                [--enable-compress-response-body]
                [--comfy-api-base COMFY_API_BASE]
                [--database-url DATABASE_URL]
+
+
+
+
+
+UPGRADE PYTHON TO 3.13 AS THE UBUNTU DEFAULT TO 3.10 ULL BE ABLE TO USE NEW NODES LIKE LTXV
+
+apt install wget build-essential libreadline-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev libffi-dev zlib1g-dev
+
+
+2. Then, select download the most recent dev version of Python 3.13 (so far Python-3.13.0.tar.xz) from the link page below:
+
+
+https://www.python.org/ftp/python/3.13.0/
+
+Download Python 3.13
+
+
+3. Next, extract the source tarball in file manager. Then, right-click on extracted folder and select “Open in terminal” to open that folder as working directory in terminal.
+
+
+
+
+4. In the pop-up terminal, configure the source via command:
+
+./configure --enable-optimizations
+For choice, you can run ./configure --help to print more configure options.
+
+Then, compile by starting 4 threads in parallel:
+
+make -j4
+And finally install Python 3.13:
+
+make install
+Finally, verify via command: python3.13 --version and pip3.13 --version.
+
+Uninstall:
+For Python 3.13 installed from PPA, open terminal and run command to remove it:
+
+apt remove --autoremove python3.13
+Also remove the PPA by running command:
+
+sudo add-apt-repository --remove ppa:deadsnakes/ppa
+If you compiled it from source, then try running the command below from source folder until you removed it:
+
+sudo make uninstall
+Or, manually delete all the corresponding files and folders (run whereis python3.13 to tell).
