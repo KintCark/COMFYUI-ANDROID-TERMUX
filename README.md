@@ -1,3 +1,11 @@
+
+Cosmos predict2 t2i and v2w models work on low ram devices it barely runs up your ram it is well optimized and makes high quality images you have to try it q8 is best!!
+
+
+
+
+
+
 I fixed it all you gota do is download the nodes you want then shutdown termux and boot up again sign into Ubuntu then go to the custom nodes folder then u gota pip install -r requirements.txt on every node u installed if it doesn't have a requirements.txt then just move onto the next one once I did this I was able to run ltxv workflow I also added some new Dependencies to the install script just rerun that too to install the new Dependencies 😉 
 
 
