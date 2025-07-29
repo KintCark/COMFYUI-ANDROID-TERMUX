@@ -2,7 +2,18 @@
 
 
 
-ubuntu-in-termux is Back someone fixed it u just have to edit the ubuntu.sh file on line 7 change 24.04 back to 22.04 save it then delete all files in ubuntu.sh folder except ubuntu.sh file. then re install ubuntu it should work I'm testing it now I'll be updating yall soon:)
+ubuntu-in-termux is Back someone fixed it
+
+This is because of the download link of cd image is set wrongly. You can fix this issue simply by running the following command in ubuntu-in-termux directory:
+
+sed -i '7s/.*/UBUNTU_VERSION='"'"'22.04'"'"'/' ubuntu.sh
+
+
+Then delete ALL files in the directory except ubuntu.sh. After deleting, run ubuntu.sh again.
+
+This modifies the line 7 of ubuntu.sh file, since the image of version 24.10 is not provided now.
+
+
 
 Wan 2.1, wan 2.2, hunyuan, ltxv Works but only maxed to 256x256 and 512x512 12gb Ram use gguf version!
 
@@ -82,7 +93,7 @@ If running into RAM issues, consider adding swap memory in Termux.
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
 
-pkg update -y && pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu22/ubuntu22.sh -O ubuntu22.sh && chmod +x ubuntu22.sh && bash ubuntu22.sh
+pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && pkg install git -y && pkg install proot -y && cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && cd ubuntu-in-termux && chmod +x ubuntu.sh && ./ubuntu.sh -y && ./startubuntu.sh
 
 Installing ComfyUI Run below commands sequentially as root user in Ubuntu Install basic tools
 
