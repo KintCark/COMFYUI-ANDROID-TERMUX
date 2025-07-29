@@ -1,18 +1,5 @@
-
-
-
-
-ubuntu-in-termux is Back someone fixed it
-
-This is because of the download link of cd image is set wrongly. You can fix this issue simply by running the following command in ubuntu-in-termux directory:
-
-sed -i '7s/.*/UBUNTU_VERSION='"'"'22.04'"'"'/' ubuntu.sh
-
-
-Then delete ALL files in the directory except ubuntu.sh. After deleting, run ubuntu.sh again.
-
-This modifies the line 7 of ubuntu.sh file, since the image of version 24.10 is not provided now.
-
+OK use the newer ubuntu as ubuntu-in-termux crashes when low on memory and crystools doesn't work I updated the ubuntu installation
+today
 
 
 Wan 2.1, wan 2.2, hunyuan, ltxv Works but only maxed to 256x256 and 512x512 12gb Ram use gguf version!
@@ -93,7 +80,8 @@ If running into RAM issues, consider adding swap memory in Termux.
 
 Prerequisites First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
 
-pkg updated && pkg upgrade -y && termux-setup-storage && pkg install wget -y && pkg install git -y && pkg install proot -y && cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && cd ubuntu-in-termux && chmod +x ubuntu.sh && ./ubuntu.sh -y && ./startubuntu.sh
+pkg update -y && pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu22/ubuntu22.sh -O ubuntu22.sh && chmod +x ubuntu22.sh && bash ubuntu22.sh 
+
 
 Installing ComfyUI Run below commands sequentially as root user in Ubuntu Install basic tools
 
