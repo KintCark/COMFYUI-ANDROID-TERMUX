@@ -1,3 +1,5 @@
+wan 2.2 works just use gguf:-)
+
 
 Cosmos predict2 t2i and v2w models work on low ram devices it barely runs up your ram it is well optimized and makes high quality images you have to try it q8 is best!!
 
