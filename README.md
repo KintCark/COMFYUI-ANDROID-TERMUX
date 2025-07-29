@@ -1,17 +1,10 @@
-wan 2.2 works just use gguf:-)
-
-
-Cosmos predict2 t2i and v2w models work on low ram devices it barely runs up your ram it is well optimized and makes high quality images you have to try it q8 is best!!
 
 
 
 
+ubuntu-in-termux is Back someone fixed it u just have to edit the ubuntu.sh file on line 7 change 24.04 back to 22.04 save it then delete all files in ubuntu.sh folder except ubuntu.sh file. then re install ubuntu it should work I'm testing it now I'll be updating yall soon:)
 
-
-I fixed it all you gota do is download the nodes you want then shutdown termux and boot up again sign into Ubuntu then go to the custom nodes folder then u gota pip install -r requirements.txt on every node u installed if it doesn't have a requirements.txt then just move onto the next one once I did this I was able to run ltxv workflow I also added some new Dependencies to the install script just rerun that too to install the new Dependencies 😉 
-
-
-Wan 2.1, hunyuan, ltxv Works but only maxed to 256x256 on 12gb Ram use gguf version!
+Wan 2.1, wan 2.2, hunyuan, ltxv Works but only maxed to 256x256 and 512x512 12gb Ram use gguf version!
 
 
 Before installing virtual environment
