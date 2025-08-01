@@ -1,3 +1,21 @@
+Install Ollama
+
+Update Ubuntu: apt update && apt upgrade -y
+
+Install deps: apt install git wget curl jq
+
+Install Ollama: curl -fsSL https://ollama.com/install.sh | sh
+
+Start Ollama: ollama serve &
+
+Run a model that will work for your device like Qwen2:0.5b: ollama run qwen2:0.5b --verbose
+
+
+
+
+
+
+
 OK use the newer ubuntu as ubuntu-in-termux crashes when low on memory and crystools doesn't work I updated the ubuntu installation
 today
 
