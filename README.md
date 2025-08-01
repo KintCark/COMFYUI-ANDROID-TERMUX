@@ -1,157 +1,3 @@
-
-
-ComfyUI home page
-Search...
-
-
-
-Navigation
-CLI
-Getting Started
-CLI
-Getting Started
-​
-Overview
-comfy-cli is a command line tool that makes it easier to install and manage Comfy.
-​
-Install CLI
-
-pip
-
-homebrew
-
-Copy
-
-Ask AI
-pip install comfy-cli
-To get shell completion hints:
-
-Copy
-
-Ask AI
-comfy --install-completion
-​
-Install ComfyUI
-Create a virtual environment with any Python version greater than 3.9.
-
-conda
-
-venv
-
-Copy
-
-Ask AI
-conda create -n comfy-env python=3.11
-conda activate comfy-env
-Install ComfyUI
-
-Copy
-
-Ask AI
-comfy install
-You still need to install CUDA, or ROCm depending on your GPU.
-​
-Run ComfyUI
-
-Copy
-
-Ask AI
-comfy launch
-​
-Manage Custom Nodes
-
-Copy
-
-Ask AI
-comfy node install <NODE_NAME>
-We use cm-cli for installing custom nodes. See the docs for more information.
-​
-Manage Models
-Downloading models with comfy-cli is easy. Just run:
-
-Copy
-
-Ask AI
-comfy model download <url> models/checkpoints
-​
-Contributing
-We encourage contributions to comfy-cli! If you have suggestions, ideas, or bug reports, please open an issue on our GitHub repository. If you want to contribute code, fork the repository and submit a pull request.
-Refer to the Dev Guide for further details.
-​
-Analytics
-We track usage of the CLI to improve the user experience. You can disable this by running:
-
-Copy
-
-Ask AI
-comfy tracking disable
-To re-enable tracking, run:
-
-Copy
-
-Ask AI
-comfy tracking enable
-
-Was this page helpful?
-
-
-Yes
-
-No
-Suggest edits
-Previous
-Reference
-Next
-ComfyUI home page
-github
-x
-discord
-youtube
-Resources
-
-installation
-Tutorials
-Development
-Products
-
-Features
-Gallery
-Download
-Company
-
-About
-Careers
-Terms of Service
-Privacy Policy
-Powered by Mintlify
-
-
-
-Getting Started - ComfyUI
-
-
-
-
-
-
-Install Ollama
-
-Update Ubuntu: apt update && apt upgrade -y
-
-Install deps: apt install git wget curl jq
-
-Install Ollama: curl -fsSL https://ollama.com/install.sh | sh
-
-Start Ollama: ollama serve &
-
-Run a model that will work for your device like Qwen2:0.5b: ollama run qwen2:0.5b --verbose
-
-
-
-
-
-
-
 OK use the newer ubuntu as ubuntu-in-termux crashes when low on memory and crystools doesn't work I updated the ubuntu installation
 today
 
@@ -307,6 +153,30 @@ cd custom_nodes
 git clone https://github.com/ltdrdata/ComfyUI-Manager.git
 
 After You install Manager Make Sure To Install Efficiency Nodes!! they are better for Performance And are less messy!!!
+
+
+Comfyui Cli Install
+
+pip install comfy-cli
+
+comfy --install-completion
+
+
+Install Ollama
+
+Update Ubuntu: apt update && apt upgrade -y
+
+Install deps: apt install git wget curl jq
+
+Install Ollama: curl -fsSL https://ollama.com/install.sh | sh
+
+Start Ollama: ollama serve &
+
+Run a model that will work for your device like Qwen2:0.5b: ollama run qwen2:0.5b --verbose
+
+
+
+
 
 PixArt Sigma XL 2 Works on 12gb Ram!!!
 
