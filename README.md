@@ -1,6 +1,13 @@
-OK use the newer ubuntu as ubuntu-in-termux crashes when low on memory and crystools doesn't work I updated the ubuntu installation
-today
+LTXV is Amazing its perfect for cpu users itz fast and uses less ram 9.6 with 9.8 13b vae is very fast like so ic speed u can do higher resolution with ltxv also on Android
 
+if u get an error saying no support sdpa when trying llm just do this:
+
+
+pip install transformers==4.49.0
+
+transformer that is higher than 4.49 don't have sdpa support
+
+enjoy ltxv!! on Android Termux!!!😉
 
 Wan 2.1, wan 2.2, hunyuan, ltxv Works but only maxed to 256x256 and 512x512 12gb Ram use gguf version!
 
