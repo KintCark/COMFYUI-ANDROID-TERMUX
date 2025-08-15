@@ -1,11 +1,6 @@
-LTXV is Amazing its perfect for cpu users itz fast and uses less ram 9.6 with 9.8 13b vae is very fast like so ic speed u can do higher resolution with ltxv also on Android
-
-if u get an error saying no support sdpa when trying llm just do this:
+I Found an arg --cache-none that reduces ram usage I didn't know this existed I'm testing it now I'll be back with results👍
 
 
-pip install transformers==4.49.0
-
-transformer that is higher than 4.49 don't have sdpa support
 
 enjoy ltxv!! on Android Termux!!!😉
 
@@ -131,24 +126,25 @@ cd ubuntu-in-termux && ./startubuntu.sh
 
 SDXL/SD3/SD3.5/FLUX/SD1.5/AnimateDiff-Evolved/GGUF models 
 
-cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --force-fp16 --fp8_e4m3fn-unet --disable-xformers --fp8_e4m3fn-text-enc --fast --disable-smart-memory --use-split-cross-attention --supports-fp8-compute --dont-upcast-attention
+cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --fp8_e4m3fn-unet --fp8_e4m3fn-text-enc --fast --disable-smart-memory --supports-fp8-compute --async-offload --use-pytorch-cross-attention --force-fp16 --cache-none
+
 
 Animatediff fp8_e8m0fnu-unet better Quality
 
-cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --force-fp16 --fp8_e8m0fnu-unet --disable-xformers --fp8_e4m3fn-text-enc --fast --disable-smart-memory --use-pytorch-cross-attention --supports-fp8-compute
+cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --force-fp16 --fp8_e8m0fnu-unet --fp8_e4m3fn-text-enc --fast --disable-smart-memory --use-pytorch-cross-attention --supports-fp8-compute
 
 Sana 600M
 
-cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --use-pytorch-cross-attention --force-fp16 --bf16-unet --disable-xformers --fp16-text-enc --fast --disable-smart-memory --fast
+cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --use-pytorch-cross-attention --force-fp16 --bf16-unet --fp16-text-enc --fast --disable-smart-memory --fast
 
 Pixart Sigma Portable
 
-cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --use-pytorch-cross-attention --force-fp16 --fp8_e4m3fn-unet --disable-xformers --fp8_e4m3fn-text-enc --disable-smart-memory --fast
+cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --use-pytorch-cross-attention --force-fp16 --fp8_e4m3fn-unet --fp8_e4m3fn-text-enc --disable-smart-memory --fast
 
 Animatediff img2vid
 
 
-cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --use-pytorch-cross-attention --force-fp32 --disable-xformers --fp16-text-enc --fast --disable-smart-memory --fp16-vae --fp16-unet
+cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --use-pytorch-cross-attention --force-fp32 --fp16-text-enc --fast --disable-smart-memory --fp16-vae --fp16-unet
 
 
 Install ComfyUI Manager
@@ -395,3 +391,13 @@ If you compiled it from source, then try running the command below from source f
 
 sudo make uninstall
 Or, manually delete all the corresponding files and folders (run whereis python3.13 to tell).
+
+
+LTXV is Amazing its perfect for cpu users itz fast and uses less ram 9.6 with 9.8 13b vae is very fast like so ic speed u can do higher resolution with ltxv also on Android
+
+if u get an error saying no support sdpa when trying llm just do this:
+
+
+pip install transformers==4.49.0
+
+transformer that is higher than 4.49 don't have sdpa support
