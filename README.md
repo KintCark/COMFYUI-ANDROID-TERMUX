@@ -122,29 +122,14 @@ http://127.0.0.1:8188
 
 To start after rebooting termux after first installation
 
-cd ubuntu-in-termux && ./startubuntu.sh
-
-SDXL/SD3/SD3.5/FLUX/SD1.5/AnimateDiff-Evolved/GGUF models 
+./start-ubuntu22.sh
 
 cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --fp8_e4m3fn-unet --fp8_e4m3fn-text-enc --fast --disable-smart-memory --supports-fp8-compute --async-offload --use-pytorch-cross-attention --force-fp16 --cache-none
 
 
-Animatediff fp8_e8m0fnu-unet better Quality
-
-cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --force-fp16 --fp8_e8m0fnu-unet --fp8_e4m3fn-text-enc --fast --disable-smart-memory --use-pytorch-cross-attention --supports-fp8-compute
-
-Sana 600M
-
-cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --use-pytorch-cross-attention --force-fp16 --bf16-unet --fp16-text-enc --fast --disable-smart-memory --fast
-
-Pixart Sigma Portable
-
-cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --use-pytorch-cross-attention --force-fp16 --fp8_e4m3fn-unet --fp8_e4m3fn-text-enc --disable-smart-memory --fast
-
-Animatediff img2vid
 
 
-cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --use-pytorch-cross-attention --force-fp32 --fp16-text-enc --fast --disable-smart-memory --fp16-vae --fp16-unet
+
 
 
 Install ComfyUI Manager
