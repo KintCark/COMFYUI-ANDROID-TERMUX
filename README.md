@@ -17,7 +17,11 @@ make
 
 Forth
 
-cd ../python python3 setup.py install --user
+cd -
+
+cd python
+
+python3 setup.py install --user
 
 I Found an arg --cache-none that reduces ram usage I didn't know this existed I'm testing it now I'll be back with results👍
 
