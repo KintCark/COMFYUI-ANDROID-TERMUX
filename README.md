@@ -125,16 +125,28 @@ git clone https://github.com/comfyanonymous/ComfyUI
 I Found a modded comfyui that only uses cpu this is perfect for android hopefully it's faster!
 
 
+Fast installation
+(Linux and MacOS for windows see below instructions)
+
+includes comfyui manager
 git clone https://github.com/ArdeniusAI/ComfyUI-cpu.git
 
+cd ComfyUI-cpu
 
-Change the current directory
+./install_comfyui-cpu.sh
+
+once installed then run the following to start:
+./start_comfyui-cpu.sh
+
+
+
+
+
+OR
+
 
 cd ComfyUI
 
-if u wanna try ComfyUI-cpu then 
-
-cd ComfyUI-cpu
 
 export ANDROID_DATA=anything
 
