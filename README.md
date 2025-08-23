@@ -1,4 +1,4 @@
-Before installing decord first install ubuntu then the dependencies I put part of decord dependencies in the main comfyui dependencies script so it will be easier to install decord afterwards 
+Before installing decord first install ubuntu then the dependencies then comfyui and  requirements.txt I put part of decord dependencies in the main comfyui dependencies script so it will be easier to install decord afterwards 
 
 
 
