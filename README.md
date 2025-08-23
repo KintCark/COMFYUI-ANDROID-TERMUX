@@ -1,3 +1,5 @@
+if u get a cd too many arguments error just go to original decord github repository and copy the install code 2nd step from there
+
 Before installing decord first install ubuntu then the dependencies then comfyui and requirements.txt I put part of decord dependencies in the main comfyui dependencies script so it will be easier to install decord afterwards
 
 Install Decord
