@@ -1,3 +1,29 @@
+Install Decord
+
+1st
+
+git clone --recursive https://github.com/dmlc/decord
+
+2nd
+
+apt-get install libavformat-dev libavfilter-dev libavdevice-dev ffmpeg
+
+third>PRESS ENTER ON make!
+
+cd decord mkdir build && cd build cmake .. -DUSE_CUDA=0 -DCMAKE_BUILD_TYPE=Release make
+
+Forth
+
+cd ../python python3 setup.py install --user
+
+
+
+
+
+
+
+
+
 I Found an arg --cache-none that reduces ram usage I didn't know this existed I'm testing it now I'll be back with results👍
 
 
