@@ -157,7 +157,7 @@ cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-m
 
 COMFYUI-CPU
 
-cd ComfyUI-cpu && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --fp8_e4m3fn-unet --fp8_e4m3fn-text-enc --fast --disable-smart-memory --use-pytorch-cross-attention --force-fp16  --fp16-vae
+./start_comfyui-cpu.sh
 
 Install ComfyUI Manager
 
