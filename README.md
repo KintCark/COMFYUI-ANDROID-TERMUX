@@ -116,6 +116,12 @@ To start after rebooting termux after first installation
 
 cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --fp8_e4m3fn-unet --fp8_e4m3fn-text-enc --fast --disable-smart-memory --supports-fp8-compute --async-offload --use-pytorch-cross-attention --force-fp16 --cache-none
 
+Fp16 for ipadapter V2
+
+cd ComfyUI && python main.py --cpu --cpu-vae --disable-cuda-malloc --use-pytorch-cross-attention --force-fp16 --fp16-unet --fp16-text-enc --fast --disable-smart-memory --async-offload  --cache-none
+
+
+
 COMFYUI-CPU
 
 ./start_comfyui-cpu.sh
