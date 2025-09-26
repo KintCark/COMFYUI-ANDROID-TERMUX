@@ -1,3 +1,12 @@
+I found the best memory saving node called ComfyUI-FreeMemory we now can use any large model we want
+ just use clip free memory node and if u want enable aggressive I can now use qwen image sdxl and hidream wan 21 and wan 22
+still get on crash so we still need 16gb ram for wan but it's a life saver u also can do higher resolutions no need for tiled vae.🥳
+
+
+
+
+
+
 if u get a cd too many arguments error just go to original decord github repository and copy the install code 2nd step from there
 
 Before installing decord first install ubuntu then the dependencies then comfyui and requirements.txt I put part of decord dependencies in the main comfyui dependencies script so it will be easier to install decord afterwards
