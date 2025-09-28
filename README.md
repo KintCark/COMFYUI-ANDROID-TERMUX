@@ -127,7 +127,7 @@ cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-m
 
 Fp16 for ipadapter V2
 
-cd ComfyUI && python main.py --cpu --cpu-vae --disable-cuda-malloc --use-split-cross-attention --force-fp16 --fp16-unet --fp16-text-enc --fast --disable-smart-memory --async-offload  --cache-none
+cd ComfyUI && python main.py --cpu --cpu-vae --disable-cuda-malloc --use-pytorch-cross-attention --force-fp16 --disable-smart-memory --async-offload --cache-none --dont-upcast-attention --fp16-vae
 
 
 
