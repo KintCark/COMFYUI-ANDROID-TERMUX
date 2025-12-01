@@ -1,7 +1,4 @@
-I found the best memory saving node called ComfyUI-FreeMemory we now can use any large model we want
- just use clip free memory node and if u want enable aggressive I can now use qwen image sdxl and hidream wan 21 and wan 22
-still get on crash so we still need 16gb ram for wan but it's a life saver u also can do higher resolutions no need for tiled vae.🥳
-
+16 GB ram is required for comfyui to run newer quantized models like wan flux 2 hunyuan video 1.5 etc I did upgrade just for this reason it's worth every penny 😉 
 
 
 
