@@ -1,3 +1,9 @@
+u finally found an up to date ubuntu install with Python 3.14 so now we android people can use comfyui latest features 😁
+
+
+
+
+
 16 GB ram is required for comfyui to run newer quantized models like wan flux 2 hunyuan video 1.5 etc I did upgrade just for this reason it's worth every penny 😉 
 
 
