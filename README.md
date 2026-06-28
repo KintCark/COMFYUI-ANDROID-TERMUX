@@ -123,7 +123,7 @@ http://127.0.0.1:8188
 
 To start after rebooting termux after first installation
 
-./start-ubuntu22.sh
+proot-distro login ubuntu
 
 cd ComfyUI && python main.py --cpu --disable-xformers --cpu-vae --disable-cuda-malloc --fp8_e4m3fn-unet --fp8_e4m3fn-text-enc --fast --disable-smart-memory --supports-fp8-compute --async-offload --use-split-cross-attention --force-fp16 --cache-none
 
